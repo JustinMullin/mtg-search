@@ -1,0 +1,9 @@
+# Application
+GET     /                           @controllers.Application.index
+GET     /loadData                   @controllers.Data.loadData
+
+# API
+POST    /cards                      @controllers.Cards.findCards
+
+# Static
+GET     /assets/*file               controllers.Assets.at(path="/public", file)

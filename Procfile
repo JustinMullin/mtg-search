@@ -1,0 +1,1 @@
+web: target/universal/stage/bin/mtg-search -Dhttp.port=${PORT} -DapplyEvolutions.default=true -Dmongodb.uri=${MONGOLAB_URI}
